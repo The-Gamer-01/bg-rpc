@@ -16,6 +16,18 @@
         <module>bg-rpc-serialization</module>
         <module>bg-rpc-cluster</module>
     </modules>
+    
+    <properties>
+        <lombok.version>1.18.24</lombok.version>
+    </properties>
 
+    <dependencies>
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
