@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>com.hyx</groupId>
+    <artifactId>bg-rpc-all</artifactId>
+    <packaging>pom</packaging>
+    <version>0.1</version>
+    <description>bg-rpc（不鸽-rpc），一个基于Netty的RPC框架</description>
+    <modules>
+        <module>bg-rpc-common</module>
+        <module>bg-rpc-remoting</module>
+        <module>bg-rpc-registry</module>
+        <module>bg-rpc-serialization</module>
+        <module>bg-rpc-cluster</module>
+    </modules>
+
+
+</project>
